@@ -1,6 +1,4 @@
 myWorld
-Personal Digital Environment
-Create. Organize. Preserve.
 ---
 myWorld is a personal digital environment designed to collect, organize, preserve and develop different forms of personal content.
 It combines the concepts of a digital diary, a personal archive and a creative workspace, providing users with the freedom to build an environment that reflects their individual needs and interests.
