@@ -1,18 +1,15 @@
 # myWorld
 
-### A Creative Space for Artists
+**Personal Digital Environment**  
+*Create. Organize. Preserve.*
 
-**Create. Discover. Get Inspired.**
+**myWorld** is a personal digital environment designed to collect, organize, preserve and develop different forms of personal content.
 
----
+It combines the concepts of a digital diary, a personal archive and a creative workspace, providing users with the freedom to build an environment that reflects their individual needs and interests.
 
-myWorld is a creative discovery platform designed to connect artists, creative works and people looking for inspiration.
+Rather than imposing a predefined organizational structure, the platform allows users to create personalized sections, manage collections, connect content and develop independent projects within a single environment.
 
-The platform provides a space where users can publish, explore and appreciate different forms of artistic expression, including images, videos, music and written content.
-
-Rather than focusing on conversations and traditional social networking interactions, myWorld places creative works at the center of the experience.
-
-> **Project focus:** Software Engineering · Software Architecture · Digital Creativity · Content Discovery
+**Project focus:** `Software Engineering` · `Software Architecture` · `Modular Systems` · `Digital Content Management`
 
 ---
 
@@ -20,14 +17,14 @@ Rather than focusing on conversations and traditional social networking interact
 
 - [Overview](#overview)
 - [Vision & Philosophy](#vision--philosophy)
-- [User Experience](#user-experience)
 - [Core Features](#core-features)
-- [Content & Publishing](#content--publishing)
-- [Artist Profiles](#artist-profiles)
-- [Content Organization](#content-organization)
-- [Topics & Tags](#topics--tags)
-- [Discovery System](#discovery-system)
 - [Application Structure](#application-structure)
+- [Personal Sections](#personal-sections)
+- [Content Management](#content-management)
+- [Projects & Workspaces](#projects--workspaces)
+- [Creative Workspace](#creative-workspace)
+- [Customization & Extensibility](#customization--extensibility)
+- [Multiplatform Experience](#multiplatform-experience)
 - [Development Roadmap](#development-roadmap)
 - [Project Status](#project-status)
 
@@ -35,228 +32,317 @@ Rather than focusing on conversations and traditional social networking interact
 
 ## Overview
 
-myWorld starts from a simple idea: creating a digital environment where creativity can be shared, discovered and appreciated.
+**myWorld** starts from a simple idea: creating a digital environment where individuals can collect their memories, preserve their creations, organize their ideas and develop personal projects.
 
-It brings together people with different artistic interests, allowing them to publish their work, explore new forms of expression and discover creators they might not otherwise encounter.
+Users can build their own digital space, creating dedicated sections for different interests and activities.
 
-The experience is primarily centered around artistic content rather than conversations or personal interactions.
+For example, someone might create sections for:
+- Personal diaries and memories.
+- Stories, poems and written works.
+- Music, beats and audio recordings.
+- Photographs and visual collections.
+- Ideas and personal notes.
+- Creative and technical projects.
+- Documents and references.
 
-myWorld aims to combine the discovery capabilities of a social network with the expressive freedom of a customizable creative portfolio.
+The platform combines three complementary dimensions:
 
-As a software engineering project, it explores:
+| Dimension | Purpose |
+| :--- | :--- |
+| **Digital Diary** | Preserve personal memories, experiences and reflections. |
+| **Personal Archive** | Collect and organize different types of digital content. |
+| **Creative Workspace** | Create, edit and develop ideas and projects. |
 
-- Maintainable software design.
-- Flexible and extensible architecture.
+As a software engineering project, **myWorld** explores:
+- Modular and extensible architecture.
+- Flexible data modeling.
 - Content management.
-- User-centered design.
-- Personalized content discovery.
+- Customizable user environments.
+- Cross-platform software design.
+- Integration of modular tools and services.
+
+---
 
 ## Vision & Philosophy
 
-### Put creativity at the center.
+> *Your space, your structure.*
 
-myWorld aims to create an environment where artistic expression takes priority over traditional social networking dynamics.
+**myWorld** aims to provide an environment that adapts to its users rather than forcing them to follow predefined organizational rules.
 
 Its design is guided by three principles:
 
 | Principle | Purpose |
-|:--|:--|
-| **Creativity** | Encourage artistic expression and content creation. |
-| **Discovery** | Help users explore different artists, styles and creative works. |
-| **Inspiration** | Make it easier to find and appreciate content from different creative fields. |
+| :--- | :--- |
+| **Freedom** | Allow users to build their own digital environment. |
+| **Creativity** | Provide tools to create, develop and preserve personal content. |
+| **Organization** | Make different types of information accessible and manageable. |
 
-The objective is to give visibility to both established and emerging creators, while allowing every artist to develop an individual creative identity.
+The objective is to bring personal content, creative activities and independent projects together without sacrificing organizational freedom.  
+Users should be able to shape their environment according to their own preferences, interests and workflows.
 
-## User Experience
-
-### One platform, two ways to participate.
-
-All users can participate in both content creation and content discovery.
-
-The concepts of Viewer, Creator and Hybrid represent different ways of using the platform rather than separate account types.
-
-Every user can freely switch between discovering creative works and publishing their own.
-
-Social interaction is intentionally limited, keeping the focus on artistic content.
+---
 
 ## Core Features
 
 The initial version is expected to include:
+- Create and customize personal sections.
+- Choose from predefined section templates.
+- Create collections, folders and subfolders.
+- Add and manage different types of digital content.
+- Write and edit texts directly within the application.
+- Upload and manage images, videos, audio and documents.
+- Record audio directly through the application.
+- Create visual boards combining images and notes.
+- Assign tags to individual contents.
+- Associate contents with multiple sections.
+- Connect related contents across different areas.
+- Create independent projects and workspaces.
+- Pin important projects for quick access.
+- View recently opened projects and sections.
+- Customize layouts, colors, fonts, backgrounds and icons.
+- Access the platform through desktop and mobile devices.
+- Extend the creative environment through optional tools and modules.
 
-- Create and manage a personal artist profile.
-- Publish artistic content.
-- Explore creative works from different categories.
-- Follow other artists.
-- Upvote publications.
-- Save publications for later.
-- Organize publications into folders and subfolders.
-- Customize personal artist profiles.
-- Build custom pages through visual editing tools.
-- Develop fully personalized pages using web technologies.
-- Select preferred topics during initial onboarding.
-- Discover content through personalized recommendations.
-- Browse publications from followed artists.
-
-Comments and direct social conversations are not part of the currently defined core experience.
-
-## Content & Publishing
-
-The initial version focuses on four main content categories:
-
-| Category | Description |
-|:--|:--|
-| **Images** | Photographs, illustrations, drawings and visual artwork. |
-| **Videos** | Video creations and audiovisual content. |
-| **Music** | Beats, songs, compositions and other musical works. |
-| **Texts** | Poetry, stories, lyrics and written creations. |
-
-Small interactive games and other forms of creative content may be considered in future development.
-
-Publishing should allow creators to present their work while maintaining its artistic identity.
-
-## Artist Profiles
-
-### A portfolio first, a social profile second.
-
-Each artist has a personal page combining elements of a traditional social profile with the flexibility of a customizable portfolio.
-
-The profile serves as the artist's personal space within the platform, allowing visitors to explore their creative identity and published works.
-
-Artists can personalize their pages through two different approaches:
-
-**Visual Customization**
-
-A visual editor that allows users to build and customize their pages without programming knowledge.
-
-**Custom Web Development**
-
-The possibility of developing an entirely personalized page using web technologies, giving technically skilled artists greater freedom over their presentation.
-
-The profile combines:
-
-- Personal information and artist identity.
-- Published content.
-- Followers and following information.
-- Customizable layouts and visual elements.
-- Personalized portfolio sections.
-
-The objective is to give artists control over how their creative identity is presented.
-
-## Content Organization
-
-### Organize creativity your own way.
-
-Artists can organize their publications through a hierarchical folder system.
-
-Folders and subfolders allow creators to group their works according to personal preferences, artistic disciplines, projects or other organizational criteria.
-
-Each folder can have its own visibility setting:
-
-| Visibility | Description |
-|:--|:--|
-| **Private** | Only the owner can access the folder. |
-| **Public** | The folder can be explored by other users as part of the artist's portfolio. |
-
-This system combines personal content management with public artistic presentation.
-
-## Topics & Tags
-
-### Connect creative works through shared interests.
-
-Publications can be associated with multiple topics and tags to improve content organization and discovery.
-
-**Topics**
-
-Main categories used to classify creative interests and publications.
-
-Examples:
-
-- Music
-- Hip-Hop
-- Manga
-- Anime
-- Illustration
-- Photography
-
-**Tags**
-
-More specific keywords that describe individual works and help users discover them through targeted searches.
-
-For example, an illustration of Sanji could be associated with:
-
-- **Topics:** Manga, Anime.
-- **Tags:** One Piece, Sanji.
-
-This distinction allows publications to be connected to both broad creative categories and specific subjects.
-
-Artists may also introduce additional tags to describe their works more precisely.
-
-## Discovery System
-
-The platform includes two main content discovery sections.
-
-### 01 — Discover
-
-A personalized space for exploring creative works from across the platform.
-
-Users can initially select topics that reflect their interests, helping establish a personalized discovery experience from the beginning.
-
-Over time, the recommendation system is expected to learn from user behavior and interactions.
-
-Relevant factors may include:
-
-- Selected interests and topics.
-- Upvotes.
-- Viewed and saved publications.
-- Followed artists.
-- Content popularity.
-- Previous discovery activity.
-
-The system should primarily recommend relevant content while occasionally introducing different topics and creative disciplines to encourage exploration.
-
-### 02 — Following
-
-A dedicated feed containing publications from artists the user follows.
-
-This section provides a direct way to keep up with creators and their latest works.
-
-Together, these two sections balance personalized discovery with the user's existing artistic interests.
+---
 
 ## Application Structure
 
-The initial experience revolves around three main areas:
+**myWorld** revolves around a personal homepage and a collection of customizable sections and independent projects.
 
-| Section | Purpose |
-|:--|:--|
-| **Discover** | Explore creative works from across the platform. |
-| **Following** | Browse publications from followed artists. |
-| **Artist Profile** | Present an artist's identity, portfolio and published content. |
+### 01 — Home
+The main entry point to the user's digital environment.
 
-Content publishing, organization and profile customization are integrated into the creator experience.
+The homepage provides quick access to recently opened elements, allowing users to resume their previous activities without navigating through multiple sections.
+
+It may include:
+- Recently opened projects.
+- Recently accessed sections.
+- Quick access to personal content.
+- Pinned projects and shortcuts.
+
+The homepage prioritizes recent activity rather than enforcing a rigid organizational structure.  
+Users can independently decide how to organize and arrange their content within the other areas of the application.
+
+### 02 — My Sections
+A dedicated area containing all personal sections created by the user.
+
+Each section represents an independent environment that can be customized according to its purpose.  
+Users can create new sections, select predefined templates and organize their content according to their preferences.
+
+### 03 — Projects
+A dedicated area for managing independent personal projects.
+
+Projects function as autonomous workspaces, bringing together related contents from different sections and collections.
+
+For example, opening a project called *Darkness* could provide access to:
+- Musical beats.
+- Written lyrics.
+- Cover artwork.
+- Personal notes.
+- References and inspiration.
+- Related materials.
+
+A project does not depend on the physical location of its contents within the application.  
+This allows users to work with related materials without duplicating or reorganizing their original content.
+
+---
+
+## Personal Sections
+
+> *Build your own digital environment.*
+
+Sections are customizable spaces that users can create to organize different aspects of their personal lives and interests.
+
+Each section starts with a predefined template that establishes its initial layout, visual identity and available elements.  
+Users can subsequently customize its appearance and structure.
+
+The initial template collection includes:
+
+| Template | Purpose |
+| :--- | :--- |
+| **Diary** | An environment focused on texts, dates and photographs. |
+| **Archive** | A space for collecting, categorizing and preserving content. |
+| **Creative** | An environment focused on creative tools, content and projects. |
+
+Users can customize elements such as:
+- Layout and visual organization.
+- Colors and backgrounds.
+- Fonts and typography.
+- Icons and visual elements.
+- Section structure.
+
+The objective is to provide a starting point without restricting individual customization.
+
+---
+
+## Content Management
+
+> *Organize without unnecessary restrictions.*
+
+**myWorld** supports different types of digital content within a unified environment.
+
+Examples include:
+
+| Content Type | Description |
+| :--- | :--- |
+| **Text** | Notes, stories, poems, lyrics and personal writings. |
+| **Images** | Photographs, illustrations, artwork and visual references. |
+| **Audio** | Music, beats, recordings and other audio files. |
+| **Video** | Personal videos and audiovisual materials. |
+| **Documents** | Files, documents and other digital resources. |
+| **Links** | External references and useful resources. |
+
+### Collections
+Users can organize their contents through collections, folders and subfolders.  
+Collections provide a hierarchical organizational structure while remaining independent of the sections themselves.  
+Content does not have to belong to a collection. Users can keep individual elements directly within a section whenever they prefer.
+
+### Tags & Relationships
+Tags provide an additional way to classify and retrieve content.  
+A single element can have multiple tags and be associated with multiple sections.  
+Related contents can also be connected independently of their original locations.
+
+For example, a musical beat could be associated with:
+- Music.
+- Creative Projects.
+- Personal Ideas.
+
+These associations should reference the same content rather than create unnecessary duplicates.  
+This approach allows different organizational structures to coexist within the same environment.
+
+---
+
+## Projects & Workspaces
+
+> *Everything related, in one place.*
+
+Projects are independent workspaces designed to bring together all the materials associated with a specific activity or idea.
+
+Unlike ordinary folders, projects are not limited to a hierarchical storage structure.  
+A project can aggregate different types of content, including texts, images, audio files, documents and references, regardless of the sections in which they are originally organized.
+
+For example:
+
+**Darkness — Music Project**
+- Beats and audio productions.
+- Lyrics and written material.
+- Cover artwork.
+- Creative references.
+- Personal notes.
+
+Projects can be opened independently, providing a dedicated environment for accessing and developing related materials.  
+Users can also pin important projects and access recently opened ones directly from the homepage.
+
+---
+
+## Creative Workspace
+
+> *More than a place to store content.*
+
+The Creative Workspace introduces tools that allow users to create and develop content directly within **myWorld**.
+
+The initial environment is expected to provide:
+- Text and Markdown editors.
+- Image and document management.
+- Audio recording and uploading.
+- Visual boards combining images and notes.
+- Tools for organizing creative materials.
+
+More advanced capabilities may be introduced through optional modules.
+
+Examples include:
+- Advanced code editors.
+- Compilers and development environments.
+- Advanced audio and image editing tools.
+- Design and creative production tools.
+- Other specialized utilities.
+
+The goal is to progressively transform **myWorld** into an extensible creative environment without making advanced tools mandatory for everyday use.
+
+---
+
+## Customization & Extensibility
+
+> *Adapt the environment to individual needs.*
+
+**myWorld** provides multiple levels of customization.
+
+### Visual Customization
+Users can modify the appearance of their sections through visual editing tools, without requiring programming knowledge.
+
+### Structural Customization
+Users can create new sections, choose templates, organize content and modify the structure of their personal environment.
+
+### Custom Development
+For users with technical knowledge, the platform may offer the possibility of developing more extensively personalized sections through web technologies.  
+Custom development is entirely optional.
+
+### Modular Tools
+Advanced tools are intended to follow a modular approach.
+
+The application distinguishes between:
+
+| Level | Description |
+| :--- | :--- |
+| **Native Tools** | Essential features integrated directly into the application. |
+| **Optional Modules** | Additional tools that users can activate when needed. |
+| **External Services** | Dedicated services required for certain advanced operations or computational tasks. |
+
+This approach allows the platform to remain accessible while providing opportunities for future expansion.
+
+---
+
+## Multiplatform Experience
+
+**myWorld** is conceived as a multiplatform application, accessible through both desktop and mobile devices.  
+The experience should adapt to the capabilities and characteristics of each platform.
+
+### Desktop
+A more complete working environment, particularly suited to:
+- Advanced content editing.
+- Project management.
+- Extensive customization.
+- Development tools and specialized modules.
+
+### Mobile
+An experience focused on accessibility and everyday use, particularly suited to:
+- Browsing personal content.
+- Writing and editing notes.
+- Recording and uploading audio.
+- Managing collections.
+- Accessing projects and sections.
+
+The objective is to maintain continuity between devices while adapting individual tools to their respective environments.
+
+---
 
 ## Development Roadmap
 
 Development will follow an incremental approach, moving from initial analysis to implementation and refinement.
 
 | Phase | Focus |
-|:--:|:--|
+| :--- | :--- |
 | **01** | Requirements analysis and definition |
-| **02** | Software design and architectural planning |
-| **03** | Database design and implementation |
-| **04** | Core application development |
-| **05** | Content discovery and recommendation system |
-| **06** | Testing, refinement and documentation |
+| **02** | Domain modeling and software design |
+| **03** | Flexible data modeling and database design |
+| **04** | Core application and content management |
+| **05** | Customizable sections and project workspaces |
+| **06** | Creative tools and modular extensibility |
+| **07** | Multiplatform experience and integration |
+| **08** | Testing, refinement and documentation |
 
-The roadmap may evolve as the project progresses and new requirements emerge.
+*The roadmap may evolve as the project progresses and new requirements emerge.*
+
+---
 
 ## Project Status
 
-**Current phase:** Planning & Requirements Analysis
+**Current phase:** `Planning & Requirements Analysis`
 
-The project's core concept, user experience and main features have been outlined.
-
+**myWorld** is currently in its initial design stage.  
+Its core concept, organizational principles, main application areas and customization approach have been outlined.  
 Further requirements and architectural decisions will be defined before implementation begins.
 
 ---
 
-<sub>An ongoing learning and development project exploring software engineering, digital creativity and content discovery.</sub>
+<sub>An ongoing learning and development project exploring software engineering, modular architecture, digital organization and creative technology.</sub>
