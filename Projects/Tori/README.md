@@ -3,13 +3,15 @@
 **A Collaborative Space for Knowledge**  
 *Discover. Contribute. Understand.*
 
-**Tori** is a collaborative knowledge platform designed to bring together information, research and people interested in discovering, sharing and developing knowledge.
+---
 
-The platform provides an environment where users can explore structured publications, contribute information, discuss different perspectives and connect knowledge across multiple subjects.
+Tori is a collaborative knowledge platform concept designed to bring together information, research and people interested in discovering, sharing and developing knowledge.
 
-Rather than focusing on popularity and engagement, **Tori** prioritizes the credibility, quality and organization of information.
+The platform explores an environment where users can consult structured publications, contribute information and connect knowledge across multiple subjects.
 
-**Project focus:** `Software Engineering` · `Software Architecture` · `Knowledge Management` · `Collaborative Systems`
+Rather than focusing on popularity and engagement, Tori places emphasis on the credibility, quality and organization of information.
+
+> **Project focus:** Software Engineering · Software Architecture · Knowledge Management · Collaborative Systems
 
 ---
 
@@ -22,30 +24,33 @@ Rather than focusing on popularity and engagement, **Tori** prioritizes the cred
 - [Content & Publications](#content--publications)
 - [Knowledge Organization](#knowledge-organization)
 - [Verification & Credibility](#verification--credibility)
-- [Community & Interaction](#community--interaction)
-- [Application Structure](#application-structure)
-- [Development Roadmap](#development-roadmap)
-- [Project Status](#project-status)
+- [Community & Collaboration](#community--collaboration)
+- [Conceptual Structure](#conceptual-structure)
+- [Engineering Focus](#engineering-focus)
 
 ---
 
 ## Overview
 
-**Tori** starts from a simple idea: creating a collaborative environment where knowledge can be shared, explored, documented and developed.
+Tori starts from a simple idea: creating a collaborative environment where knowledge can be shared, explored, documented and developed.
 
-It brings together users interested in different subjects, allowing them to access reliable information, contribute to existing knowledge and explore connections between different topics.
+It brings together users interested in different subjects, allowing them to access information, contribute to existing knowledge and explore connections between topics.
 
-Publications are structured as articles containing titles, written content, images, sources and references.
+Publications are conceived as structured articles containing titles, written content, sources and references.
 
-The platform combines the organizational principles of a knowledge management system with selected social features, creating an environment that encourages both individual learning and collective participation.
+The platform combines the organizational principles of a knowledge management system with selected collaborative features, creating an environment that supports individual learning and collective participation.
 
-As a software engineering project, **Tori** explores:
+As a software engineering case study, Tori explores:
+
+- Requirements engineering.
 - Maintainable software design.
-- Flexible and extensible architecture.
-- Information management and organization.
+- Information modeling and organization.
 - Collaborative knowledge systems.
 - Content verification and credibility.
-- User-centered design.
+- Architectural design for review workflows.
+- Quality attributes of information systems.
+
+The project focuses on the analysis and design of the system rather than its full implementation.
 
 ---
 
@@ -53,17 +58,17 @@ As a software engineering project, **Tori** explores:
 
 > *Information over popularity. Credibility over engagement.*
 
-**Tori** aims to create an environment where the value of information takes priority over traditional social networking dynamics.
+Tori aims to create an environment where the value of information takes priority over traditional social networking dynamics.
 
 Its design is guided by three principles:
 
 | Principle | Purpose |
-| :--- | :--- |
+|:--|:--|
 | **Credibility** | Prioritize information supported by evidence and reliable sources. |
 | **Collaboration** | Encourage users to contribute to the development of collective knowledge. |
 | **Accessibility** | Make information easy to discover, understand and consult. |
 
-The objective is not simply to distribute information, but to create a structured environment where knowledge can continuously grow through collective contributions.
+The objective is not simply to distribute information, but to create a structured environment where knowledge can grow through collective contributions.
 
 ---
 
@@ -71,24 +76,28 @@ The objective is not simply to distribute information, but to create a structure
 
 > *One platform, multiple ways to engage with knowledge.*
 
-Users can interact with **Tori** through three main activities:
+The conceptual user experience revolves around three main activities.
 
 ### Discover
+
 Explore publications, subjects, research and information from different fields.
 
 ### Contribute
+
 Create new publications, enrich existing knowledge and participate in the collaborative development of information.
 
 ### Discuss
+
 Exchange perspectives, examine different interpretations and discuss the content of publications.
 
-The experience combines independent knowledge discovery with community participation.
+These activities combine independent knowledge discovery with community participation.
 
 ---
 
 ## Core Features
 
-The initial version is expected to include:
+The system concept includes:
+
 - Create and manage user profiles.
 - Create structured publications.
 - Include images, sources and references in articles.
@@ -98,8 +107,10 @@ The initial version is expected to include:
 - Organize information through categories and connections.
 - Participate in discussions.
 - Submit contributions for verification.
-- Collaborate in the content review process.
-- Access verified publications.
+- Support a collaborative review process.
+- Consult publications that have passed verification.
+
+These capabilities define the functional scope of the conceptual system.
 
 ---
 
@@ -107,28 +118,29 @@ The initial version is expected to include:
 
 > *Structured information, not just social posts.*
 
-**Tori** is designed around structured publications that allow information to be presented in a clear and documented format.
+Tori is designed around structured publications that allow information to be presented in a clear and documented format.
 
 Each publication may include:
 
 | Element | Description |
-| :--- | :--- |
+|:--|:--|
 | **Title** | Identifies the subject of the publication. |
-| **Content** | Contains the information, explanations and analysis. |
+| **Content** | Contains information, explanations and analysis. |
 | **Images** | Visual material supporting the publication. |
 | **Sources** | References supporting the information presented. |
-| **References** | Additional materials for further investigation. |
+| **Additional References** | Materials for further investigation. |
 
 The platform aims to support different forms of informational content, including:
-- News and current affairs.
+
 - Science and technology.
 - History and culture.
 - Philosophy and society.
 - Guides and tutorials.
 - Research and analysis.
+- News and current affairs.
 - Other fields of knowledge.
 
-The content structure should remain flexible enough to accommodate additional subjects and forms of contribution.
+The content model is intended to accommodate different subjects and forms of contribution.
 
 ---
 
@@ -136,11 +148,12 @@ The content structure should remain flexible enough to accommodate additional su
 
 > *Connect information and build collective knowledge.*
 
-Information should not exist as isolated publications.
+Information should not exist only as isolated publications.
 
-**Tori** aims to organize knowledge through categories, pages and connections between related subjects.
+Tori explores a knowledge organization model based on categories, pages and connections between related subjects.
 
 This approach allows users to:
+
 - Explore information by subject.
 - Discover related publications.
 - Navigate between connected topics.
@@ -155,17 +168,19 @@ The objective is to develop an interconnected knowledge environment rather than 
 
 > *Knowledge supported by evidence.*
 
-**Tori** adopts a controlled publication model.
+Tori adopts a controlled publication model.
 
 Anyone can contribute, but submitted content must undergo a verification process before becoming publicly available.
 
-Verification follows a hybrid approach involving:
+The proposed approach is hybrid, involving:
+
 - Platform-appointed reviewers.
 - Qualified members of the community.
 
 The primary evaluation criterion is credibility: whether the information and claims presented are supported by evidence and reliable sources.
 
 The verification process aims to promote:
+
 - Source transparency.
 - Evidence-based information.
 - Credible references.
@@ -174,48 +189,84 @@ The verification process aims to promote:
 
 Verification does not imply absolute certainty. Its purpose is to evaluate the quality and reliability of the information available.
 
+### Conceptual Review Workflow
+
+The publication workflow can be represented as:
+
+`Draft` → `Submitted` → `Under Review` → `Verified` → `Published`
+
+Additional outcomes may include:
+
+- `Needs Revision`
+- `Rejected`
+
+This workflow provides a basis for modeling publication states, valid transitions and reviewer permissions.
+
 ---
 
-## Community & Interaction
+## Community & Collaboration
 
 > *Collaboration through knowledge.*
 
-Community participation is an important part of **Tori**.
+Community participation is an important part of Tori.
 
 Users are not limited to consulting information: they can actively contribute to its development.
 
-The platform combines individual exploration with collaborative activities, including:
+The platform concept includes:
+
 - Following pages and knowledge sources.
 - Saving interesting publications.
 - Discussing and comparing information.
 - Contributing new articles.
+- Improving existing content.
 - Participating in the review process when qualified.
 
-Social features are intended to support knowledge discovery and collaboration rather than becoming the primary purpose of the platform.
+Social features are intended to support knowledge discovery and collaboration rather than become the primary purpose of the platform.
 
 ---
 
-## Application Structure
+## Conceptual Structure
 
-The initial experience revolves around three main areas:
+The experience revolves around three main areas.
 
 | Section | Purpose |
-| :--- | :--- |
+|:--|:--|
 | **Explore** | Discover publications, subjects and connected knowledge. |
 | **Knowledge Pages** | Access organized information and follow specific knowledge areas. |
 | **My Library** | Access saved articles and personal reading collections. |
 
-Content creation, discussion and verification are integrated into the broader platform experience.
+Content creation, discussion and verification are considered cross-cutting activities that interact with these areas.
 
 ---
 
-## Project Status
+## Engineering Focus
 
-**Current phase:** `Planning & Requirements Analysis`
+Tori provides a context for exploring the design of collaborative information systems.
 
-**Tori**'s core concept, participation model, content structure and verification principles have been outlined.  
-Further requirements and architectural decisions will be defined before implementation begins.
+### Domain Modeling
+
+Identify the relationships between users, publications, sources, topics, contributions, reviewers and verification records.
+
+### Publication Lifecycle
+
+Model the states and transitions of a publication, including submission, review, revision and publication.
+
+### Authorization
+
+Analyze the permissions required for contributors, reviewers, qualified community members and platform administrators.
+
+### Verification Architecture
+
+Explore how review decisions, supporting evidence and reviewer actions can be represented and traced.
+
+### Information Quality
+
+Define quality criteria for sources, claims, references and publication structure.
+
+### Quality Attributes
+
+Evaluate reliability, traceability, maintainability, usability, transparency and resistance to misuse.
 
 ---
 
-<sub>An ongoing learning and development project exploring software engineering, knowledge management and collaborative information systems.</sub>
+<sub>A software engineering case study exploring knowledge management and collaborative information systems.</sub>
