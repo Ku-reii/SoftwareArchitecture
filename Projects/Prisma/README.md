@@ -3,13 +3,15 @@
 **A Creative Space for Artists**  
 *Create. Discover. Get Inspired.*
 
-**Prisma** is a creative discovery platform designed to connect artists, creative works and people looking for inspiration.
+---
 
-The platform provides a space where users can publish, explore and appreciate different forms of artistic expression, including images, videos, music and written content.
+Prisma is a creative discovery platform concept designed to connect artists, creative works and people looking for inspiration.
 
-Rather than focusing on conversations and traditional social networking interactions, **Prisma** places creative works at the center of the experience.
+The platform explores a space where users can publish, discover and appreciate different forms of artistic expression, including images, videos, music and written content.
 
-**Project focus:** `Software Engineering` · `Software Architecture` · `Digital Creativity` · `Content Discovery`
+Rather than focusing on conversations and traditional social networking interactions, Prisma places creative works at the center of the experience.
+
+> **Project focus:** Software Engineering · Software Architecture · Digital Creativity · Content Discovery
 
 ---
 
@@ -24,28 +26,32 @@ Rather than focusing on conversations and traditional social networking interact
 - [Content Organization](#content-organization)
 - [Topics & Tags](#topics--tags)
 - [Discovery System](#discovery-system)
-- [Application Structure](#application-structure)
-- [Development Roadmap](#development-roadmap)
-- [Project Status](#project-status)
+- [Conceptual Structure](#conceptual-structure)
+- [Engineering Focus](#engineering-focus)
 
 ---
 
 ## Overview
 
-**Prisma** starts from a simple idea: creating a digital environment where creativity can be shared, discovered and appreciated.
+Prisma starts from a simple idea: creating a digital environment where creativity can be shared, discovered and appreciated.
 
 It brings together people with different artistic interests, allowing them to publish their work, explore new forms of expression and discover creators they might not otherwise encounter.
 
 The experience is primarily centered around artistic content rather than conversations or personal interactions.
 
-The platform aims to combine the discovery capabilities of a social network with the expressive freedom of a customizable creative portfolio.
+The platform aims to combine content discovery with the expressive freedom of a customizable creative portfolio.
 
-As a software engineering project, **Prisma** explores:
-- Maintainable software design.
+As a software engineering case study, Prisma explores:
+
+- Requirements engineering.
 - Flexible and extensible architecture.
-- Content management.
-- User-centered design.
+- Digital content management.
+- Artist identity and profile modeling.
 - Personalized content discovery.
+- Content organization and relationships.
+- Quality attributes of content-centered systems.
+
+The project focuses on the analysis and design of the system rather than its full implementation.
 
 ---
 
@@ -53,12 +59,12 @@ As a software engineering project, **Prisma** explores:
 
 > *Put creativity at the center.*
 
-**Prisma** aims to create an environment where artistic expression takes priority over traditional social networking dynamics.
+Prisma aims to create an environment where artistic expression takes priority over traditional social networking dynamics.
 
 Its design is guided by three principles:
 
 | Principle | Purpose |
-| :--- | :--- |
+|:--|:--|
 | **Creativity** | Encourage artistic expression and content creation. |
 | **Discovery** | Help users explore different artists, styles and creative works. |
 | **Inspiration** | Make it easier to find and appreciate content from different creative fields. |
@@ -73,7 +79,7 @@ The objective is to give visibility to both established and emerging creators, w
 
 All users can participate in both content creation and content discovery.
 
-The concepts of Viewer, Creator and Hybrid represent different ways of using **Prisma** rather than separate account types.
+The concepts of Viewer, Creator and Hybrid represent different ways of using Prisma rather than separate account types.
 
 Every user can freely switch between discovering creative works and publishing their own.
 
@@ -83,7 +89,8 @@ Social interaction is intentionally limited, keeping the focus on artistic conte
 
 ## Core Features
 
-The initial version is expected to include:
+The system concept includes:
+
 - Create and manage a personal artist profile.
 - Publish artistic content.
 - Explore creative works from different categories.
@@ -92,30 +99,31 @@ The initial version is expected to include:
 - Save publications for later.
 - Organize publications into folders and subfolders.
 - Customize personal artist profiles.
-- Build custom pages through visual editing tools.
-- Develop fully personalized pages using web technologies.
-- Select preferred topics during initial onboarding.
+- Define public and private collections.
+- Build custom pages through visual configuration.
+- Explore personalized pages using web technologies.
+- Select preferred topics during onboarding.
 - Discover content through personalized recommendations.
 - Browse publications from followed artists.
 
-Comments and direct social conversations are not part of the currently defined core experience.
+Comments and direct social conversations are not part of the defined core experience.
 
 ---
 
 ## Content & Publishing
 
-The initial version focuses on four main content categories:
+The concept focuses on four main content categories.
 
 | Category | Description |
-| :--- | :--- |
+|:--|:--|
 | **Images** | Photographs, illustrations, drawings and visual artwork. |
 | **Videos** | Video creations and audiovisual content. |
 | **Music** | Beats, songs, compositions and other musical works. |
 | **Texts** | Poetry, stories, lyrics and written creations. |
 
-Small interactive games and other forms of creative content may be considered in future development.
+Small interactive games and other forms of creative content can be considered as extensions of the content model.
 
-Publishing should allow creators to present their work while maintaining its artistic identity.
+Publishing allows creators to present their work while maintaining its artistic identity.
 
 ---
 
@@ -125,17 +133,20 @@ Publishing should allow creators to present their work while maintaining its art
 
 Each artist has a personal page combining elements of a traditional social profile with the flexibility of a customizable portfolio.
 
-The profile serves as the artist's personal space within **Prisma**, allowing visitors to explore their creative identity and published works.
+The profile serves as the artist's personal space within Prisma, allowing visitors to explore their creative identity and published works.
 
-Artists can personalize their pages through two different approaches:
+Artists can personalize their pages through two conceptual approaches.
 
 ### Visual Customization
-A visual editor that allows users to build and customize their pages without programming knowledge.
+
+A visual configuration model that allows users to customize their pages without programming knowledge.
 
 ### Custom Web Development
-The possibility of developing an entirely personalized page using web technologies, giving technically skilled artists greater freedom over their presentation.
 
-The profile combines:
+The possibility of developing a more extensively personalized page using web technologies, giving technically skilled artists greater freedom over their presentation.
+
+The conceptual profile may include:
+
 - Personal information and artist identity.
 - Published content.
 - Followers and following information.
@@ -154,14 +165,14 @@ Artists can organize their publications through a hierarchical folder system.
 
 Folders and subfolders allow creators to group their works according to personal preferences, artistic disciplines, projects or other organizational criteria.
 
-Each folder can have its own visibility setting:
+Each folder may have its own visibility setting.
 
 | Visibility | Description |
-| :--- | :--- |
+|:--|:--|
 | **Private** | Only the owner can access the folder. |
 | **Public** | The folder can be explored by other users as part of the artist's portfolio. |
 
-This system combines personal content management with public artistic presentation.
+This model combines personal content management with public artistic presentation.
 
 ---
 
@@ -172,9 +183,11 @@ This system combines personal content management with public artistic presentati
 Publications can be associated with multiple topics and tags to improve content organization and discovery.
 
 ### Topics
+
 Main categories used to classify creative interests and publications.
 
 Examples:
+
 - Music
 - Hip-Hop
 - Manga
@@ -183,9 +196,11 @@ Examples:
 - Photography
 
 ### Tags
+
 More specific keywords that describe individual works and help users discover them through targeted searches.
 
 For example, an illustration of Sanji could be associated with:
+
 - **Topics:** Manga, Anime.
 - **Tags:** One Piece, Sanji.
 
@@ -197,16 +212,16 @@ Artists may also introduce additional tags to describe their works more precisel
 
 ## Discovery System
 
-**Prisma** includes two main content discovery sections.
+Prisma explores two main content discovery areas.
 
 ### 01 — Discover
+
 A personalized space for exploring creative works from across the platform.
 
-Users can initially select topics that reflect their interests, helping establish a personalized discovery experience from the beginning.
+Users can initially select topics that reflect their interests, helping establish a personalized discovery experience.
 
-Over time, the recommendation system is expected to learn from user behavior and interactions.
+A conceptual recommendation model may consider factors such as:
 
-Relevant factors may include:
 - Selected interests and topics.
 - Upvotes.
 - Viewed and saved publications.
@@ -214,55 +229,62 @@ Relevant factors may include:
 - Content popularity.
 - Previous discovery activity.
 
-The system should primarily recommend relevant content while occasionally introducing different topics and creative disciplines to encourage exploration.
+The system aims to recommend relevant content while occasionally introducing different topics and creative disciplines to encourage exploration.
+
+The recommendation strategy is considered part of the system's architectural design.
 
 ### 02 — Following
+
 A dedicated feed containing publications from artists the user follows.
 
 This section provides a direct way to keep up with creators and their latest works.
 
-Together, these two sections balance personalized discovery with the user's existing artistic interests.
+Together, these two areas balance personalized discovery with the user's existing artistic interests.
 
 ---
 
-## Application Structure
+## Conceptual Structure
 
-The initial experience revolves around three main areas:
+The experience revolves around three main areas.
 
 | Section | Purpose |
-| :--- | :--- |
+|:--|:--|
 | **Discover** | Explore creative works from across the platform. |
 | **Following** | Browse publications from followed artists. |
 | **Artist Profile** | Present an artist's identity, portfolio and published content. |
 
-Content publishing, organization and profile customization are integrated into the creator experience.
+Content publishing, organization and profile customization are considered part of the broader creator experience.
 
 ---
 
-## Development Roadmap
+## Engineering Focus
 
-Development will follow an incremental approach, moving from initial analysis to implementation and refinement.
+Prisma provides a context for exploring content-centered systems and personalized discovery.
 
-| Phase | Focus |
-| :--- | :--- |
-| **01** | Requirements analysis and definition |
-| **02** | Software design and architectural planning |
-| **03** | Database design and implementation |
-| **04** | Core application development |
-| **05** | Content discovery and recommendation system |
-| **06** | Testing, refinement and documentation |
+### Domain Modeling
 
-*The roadmap may evolve as the project progresses and new requirements emerge.*
+Identify the relationships between users, artists, publications, media types, topics, tags, folders and interactions.
+
+### Content Architecture
+
+Analyze how different media types can share common attributes while preserving their specific characteristics.
+
+### Profile Customization
+
+Explore how customizable artist pages can be represented while maintaining clear system boundaries.
+
+### Content Discovery
+
+Evaluate possible approaches to personalized discovery, including explicit interests, user interactions and content metadata.
+
+### Recommendation Design
+
+Consider relevance, diversity, transparency and the potential effects of popularity-based signals.
+
+### Quality Attributes
+
+Evaluate usability, maintainability, extensibility, performance and content discoverability.
 
 ---
 
-## Project Status
-
-**Current phase:** `Planning & Requirements Analysis`
-
-**Prisma**'s core concept, user experience and main features have been outlined.  
-Further requirements and architectural decisions will be defined before implementation begins.
-
----
-
-<sub>An ongoing learning and development project exploring software engineering, digital creativity and content discovery.</sub>
+<sub>A software engineering case study exploring digital creativity and content discovery.</sub>
