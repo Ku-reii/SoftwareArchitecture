@@ -30,7 +30,7 @@ Built around simplicity, flexibility and thoughtful design, its goal is to make 
 
 Organica starts from a personal need: having a clear and intuitive space to organize activities, manage deadlines and keep track of personal goals.
 
-Although initially conceived as a personal tool, the project aims to evolve into a flexible and accessible application that anyone can use.
+Although initially conceived as a personal tool, Organica is designed as a flexible and accessible system for personal task management.
 
 Beyond its functionality, Organica is also a practical software engineering project, developed with attention to:
 
@@ -57,7 +57,7 @@ The goal is not simply to manage tasks, but to make personal organization more n
 
 ## Core Features
 
-The initial version is expected to include:
+The initial product concept includes the following capabilities:
 
 - Create, edit and delete tasks.
 - Add titles and descriptions.
@@ -112,24 +112,19 @@ This structure provides enough flexibility for everyday task management while ke
 
 ## Development Roadmap
 
-Development will follow an incremental approach, moving from initial analysis to implementation and refinement.
+The project will follow a structured software engineering process, progressing from problem analysis and requirements definition to software design and quality evaluation.
 
 | Phase | Focus |
 |:--:|:--|
-| **01** | Requirements analysis and definition |
-| **02** | Software design and architectural planning |
-| **03** | Database design and implementation |
-| **04** | Core application development |
-| **05** | Testing, refinement and documentation |
+| **01** | Project definition and requirements analysis |
+| **02** | Domain analysis and modeling |
+| **03** | Software architecture and architectural decisions |
+| **04** | Detailed software design and database modeling |
+| **05** | Verification and validation planning |
+| **06** | Documentation, refinement and final review |
 
-The roadmap may evolve as the project progresses and new requirements emerge.
+The roadmap may evolve as the project progresses and new insights emerge.
 
-## Project Status
-
-**Current phase:** Planning & Requirements Analysis
-
-Organica is currently in its initial design stage. Requirements, application structure and architectural decisions will be defined before implementation begins.
-
----
+The focus is on the engineering and design of the system rather than its implementation.
 
 <sub>An ongoing learning and development project exploring software engineering, architecture and human-centered technology.</sub>
